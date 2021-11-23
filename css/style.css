@@ -1,0 +1,36 @@
+.teal{
+    background: teal;
+}
+
+.blue{
+    background: rgb(0, 0, 48);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* ---start--- */
+.white{
+    color: #fff;
+}
+
+
+/* ---start--- */
+
+/* ---portfolio--- */
+.portfolio img{
+    border-radius: 10px;
+}
+/* ---portfolio--- */
+
+/* ---contact--- */
+.send{
+    background: teal;
+    border-radius: 10px;
+}
+/* ---contact--- */
