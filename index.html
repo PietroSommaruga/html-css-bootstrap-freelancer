@@ -8,10 +8,36 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- --- header --- -->
-    <div class="container-fluid py-4 blue"></div>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-secondary p-4">
+          <h5 class="text-white h4">Inizia ora!</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <span class="white">START BOOTSTRAP</span>
+
+            
+
+          <div class="mobile-none white  d-flex justify-content-around">
+                <span >PORTFOLIO</span>
+                <span >ABOUT</span>
+                <span >CONTACT</span>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
     <!-- --- header --- -->
 
     <!-- --- portfolio --- -->
@@ -24,9 +50,11 @@
                     <div class="col-2 col-sm-4"></div>
                       
                 </div>
-                <h1 class="py-2 center">Start Bootstrap</h1>
+                <h1 class="py-2 center">START BOOTSTRAP</h1>
 
-                <!-- ---stellina--- -->
+                <div class="row d-flex justify-content-center py-2">
+                    <div class="col-auto "><i class="fas fa-star"></i></div>
+                </div>
 
                 <p class="center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
@@ -81,16 +109,16 @@
         <div class="container white ">
             <h1 class="center">ABOUT</h1>
 
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class=" col-12 col-sm-4 about-text ">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque distinctio ullam dolores labore, consectetur nobis ex error modi non inventore animi quo omnis veniam praesentium odio ad sapiente aliquam?</p>
+            <div class="row justify-content-center">
+                <div class="col-9 col-sm-5">
+                    <div class="content py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quis quibusdam recusandae id blanditiis similique dignissimos ut quaerat cupiditate ex? Eum, aliquam? Molestias, rem? Temporibus quam facere provident iusto nesciunt?</div>
                 </div>
-                <div class="col-12 col-sm-4 about-text ">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque distinctio ullam dolores labore, consectetur nobis ex error modi non inventore animi quo omnis veniam praesentium odio ad sapiente aliquam?</p>
+                <div class="col-9 col-sm-5">
+                    <div class="content py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quis quibusdam recusandae id blanditiis similique dignissimos ut quaerat cupiditate ex? Eum, aliquam? Molestias, rem? Temporibus quam facere provident iusto nesciunt?</div>
                 </div>
-                <div class="col-sm-2"></div>
             </div>
+            
+            <!-- download -->
         </div>
     </div>
     <!-- --- about --- -->
@@ -112,7 +140,7 @@
                     <hr>
                     <p class="pb-4 mb-4">Message</p>
                     <hr>
-                    <span class="send p-2">Send</span>
+                    <span class="radius teal p-2">Send</span>
                 </div>
                 <div class="col-2"></div>
             </div>
