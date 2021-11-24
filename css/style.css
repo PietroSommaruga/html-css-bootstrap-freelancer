@@ -95,6 +95,13 @@
 .text-teal{
     color: teal;
 }
+
+.logo{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+}
 /* ---footer--- */
 
 
